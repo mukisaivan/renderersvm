@@ -14,7 +14,7 @@ def read_root():
     return {"Hello": "Universe"}
 
     
-model_filename = "C:/Users/IVAN/Desktop/projects/malnudetect/assets/models/new_svm_with_grid_search.joblib"
+model_filename = "render_svm_with_grid_search.joblib"
 loaded_pipeline = joblib.load(model_filename)
 
 @app.get("/Predict")
